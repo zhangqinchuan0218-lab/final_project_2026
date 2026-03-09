@@ -33,6 +33,14 @@ CMakeFiles/haircut_stepmotor_control.elf.dir/Core/Src/main.c.obj: \
  F:\haircut\haircut_stepmotor_control\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
  F:\haircut\haircut_stepmotor_control\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  F:\haircut\haircut_stepmotor_control\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
  F:\haircut\haircut_stepmotor_control\Core\Inc/tim.h \
  F:\haircut\haircut_stepmotor_control\Core\Inc/main.h \
  F:\haircut\haircut_stepmotor_control\Core\Inc/gpio.h

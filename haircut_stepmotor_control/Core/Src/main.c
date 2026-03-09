@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+
+#include <strings.h>
+
 #include "tim.h"
 #include "gpio.h"
 
@@ -55,7 +58,12 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+void set_speed(float driver_index,float speed)
+{
+  uint16_t arr = (uint16_t)(1000000.0f/speed/driver_index);
+  __HAL_TIM_SET_AUTORELOAD(&htim2, arr);
+  __HAL_TIM_SetCompare(&htim2,TIM_CHANNEL_1,arr/2);
+}
 /* USER CODE END 0 */
 
 /**
@@ -91,6 +99,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
   HAL_GPIO_WritePin(enable_GPIO_Port, enable_Pin, GPIO_PIN_RESET);
+
+  HAL_GPIO_WritePin(dir_GPIO_Port, dir_Pin, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -100,12 +110,13 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-      __HAL_TIM_SetCompare(&htim2,TIM_CHANNEL_1,50);
-      HAL_GPIO_WritePin(dir_GPIO_Port, dir_Pin, GPIO_PIN_SET);
-      HAL_Delay(1000);
+
+      set_speed(200,5);
+      HAL_Delay(2000);
+      set_speed(200,4);
+      HAL_Delay(2000);
       //
-      HAL_GPIO_WritePin(dir_GPIO_Port, dir_Pin, GPIO_PIN_RESET);
-      HAL_Delay(5000);
+
 
   }
   /* USER CODE END 3 */

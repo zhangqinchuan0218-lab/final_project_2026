@@ -115,8 +115,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx"
-      binary: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx"
+      source: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j"
+      binary: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -125,13 +125,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx'
+        Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j'
         
-        Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0e662/fast
-        F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0e662.dir\\build.make CMakeFiles/cmTC_0e662.dir/build
-        mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx'
-        Building C object CMakeFiles/cmTC_0e662.dir/CMakeCCompilerABI.c.obj
-        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a237a/fast
+        F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a237a.dir\\build.make CMakeFiles/cmTC_a237a.dir/build
+        mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j'
+        Building C object CMakeFiles/cmTC_a237a.dir/CMakeCCompilerABI.c.obj
+        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -139,8 +139,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccWf6XIR.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccFoCiZY.s
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -161,18 +161,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccWf6XIR.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccFoCiZY.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-        Linking C static library libcmTC_0e662.a
-        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_0e662.dir\\cmake_clean_target.cmake
-        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0e662.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_0e662.a CMakeFiles/cmTC_0e662.dir/CMakeCCompilerABI.c.obj
-        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_0e662.a
-        mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C static library libcmTC_a237a.a
+        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a237a.dir\\cmake_clean_target.cmake
+        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a237a.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_a237a.a CMakeFiles/cmTC_a237a.dir/CMakeCCompilerABI.c.obj
+        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_a237a.a
+        mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j'
         
       exitCode: 0
   -
@@ -204,13 +204,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx']
+        ignore line: [Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j']
         ignore line: []
-        ignore line: [Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0e662/fast]
-        ignore line: [F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0e662.dir\\build.make CMakeFiles/cmTC_0e662.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx']
-        ignore line: [Building C object CMakeFiles/cmTC_0e662.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a237a/fast]
+        ignore line: [F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a237a.dir\\build.make CMakeFiles/cmTC_a237a.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j']
+        ignore line: [Building C object CMakeFiles/cmTC_a237a.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -218,8 +218,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccWf6XIR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccFoCiZY.s]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -240,8 +240,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccWf6XIR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccFoCiZY.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
@@ -250,13 +250,13 @@ events:
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0e662.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [Linking C static library libcmTC_0e662.a]
-        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_0e662.dir\\cmake_clean_target.cmake]
-        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0e662.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_0e662.a CMakeFiles/cmTC_0e662.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_0e662.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a33fxx']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a237a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [Linking C static library libcmTC_a237a.a]
+        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a237a.dir\\cmake_clean_target.cmake]
+        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a237a.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_a237a.a CMakeFiles/cmTC_a237a.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_a237a.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eyyg1j']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -274,8 +274,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j"
-      binary: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j"
+      source: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f"
+      binary: "F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -284,13 +284,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j'
+        Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f'
         
-        Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9b1b8/fast
-        F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b1b8.dir\\build.make CMakeFiles/cmTC_9b1b8.dir/build
-        mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j'
-        Building CXX object CMakeFiles/cmTC_9b1b8.dir/CMakeCXXCompilerABI.cpp.obj
-        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a8453/fast
+        F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a8453.dir\\build.make CMakeFiles/cmTC_a8453.dir/build
+        mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f'
+        Building CXX object CMakeFiles/cmTC_a8453.dir/CMakeCXXCompilerABI.cpp.obj
+        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -298,8 +298,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccQwde6a.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccPzGAlh.s
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -326,18 +326,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccQwde6a.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccPzGAlh.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;f:/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-        Linking CXX static library libcmTC_9b1b8.a
-        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_9b1b8.dir\\cmake_clean_target.cmake
-        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9b1b8.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_9b1b8.a CMakeFiles/cmTC_9b1b8.dir/CMakeCXXCompilerABI.cpp.obj
-        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_9b1b8.a
-        mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking CXX static library libcmTC_a8453.a
+        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a8453.dir\\cmake_clean_target.cmake
+        "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a8453.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_a8453.a CMakeFiles/cmTC_a8453.dir/CMakeCXXCompilerABI.cpp.obj
+        F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_a8453.a
+        mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f'
         
       exitCode: 0
   -
@@ -375,13 +375,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j']
+        ignore line: [Change Dir: 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f']
         ignore line: []
-        ignore line: [Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9b1b8/fast]
-        ignore line: [F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b1b8.dir\\build.make CMakeFiles/cmTC_9b1b8.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9b1b8.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "F:/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 F:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a8453/fast]
+        ignore line: [F:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a8453.dir\\build.make CMakeFiles/cmTC_a8453.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a8453.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj -c "F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -389,8 +389,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccQwde6a.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot f:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\61461\\AppData\\Local\\Temp\\ccPzGAlh.s]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -417,8 +417,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccQwde6a.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\61461\\AppData\\Local\\Temp\\ccPzGAlh.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
@@ -427,13 +427,13 @@ events:
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [f:/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9b1b8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [Linking CXX static library libcmTC_9b1b8.a]
-        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_9b1b8.dir\\cmake_clean_target.cmake]
-        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9b1b8.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_9b1b8.a CMakeFiles/cmTC_9b1b8.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_9b1b8.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zeul4j']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a8453.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [Linking CXX static library libcmTC_a8453.a]
+        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a8453.dir\\cmake_clean_target.cmake]
+        ignore line: ["F:\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a8453.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_a8453.a CMakeFiles/cmTC_a8453.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [F:\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_a8453.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'F:/haircut/haircut_stepmotor_control/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pumc9f']
         ignore line: []
         ignore line: []
         implicit libs: []
