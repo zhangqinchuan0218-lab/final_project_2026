@@ -1,0 +1,20 @@
+CMakeFiles/haircut_stepmotor_control.elf.dir/Core/Src/sysmem.c.obj: \
+ F:\haircut\haircut_stepmotor_control\Core\Src\sysmem.c \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\errno.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\errno.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
+ f:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h
