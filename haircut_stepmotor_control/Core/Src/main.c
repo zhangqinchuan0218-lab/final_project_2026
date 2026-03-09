@@ -102,7 +102,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
       __HAL_TIM_SetCompare(&htim2,TIM_CHANNEL_1,50);
       HAL_GPIO_WritePin(dir_GPIO_Port, dir_Pin, GPIO_PIN_SET);
-      HAL_Delay(5000);
+      HAL_Delay(1000);
       //
       HAL_GPIO_WritePin(dir_GPIO_Port, dir_Pin, GPIO_PIN_RESET);
       HAL_Delay(5000);
